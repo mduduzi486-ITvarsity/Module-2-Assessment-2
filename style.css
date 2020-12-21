@@ -1,0 +1,180 @@
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+}
+
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :100px;
+      background-image  : url('images/background-general-0.jpg');
+      background-repeat:repeat-x;
+}
+
+#header img{
+      display: block;
+      margin: auto;
+      height : 120px;
+      padding-top: 0px;
+      position: fixed;
+      top     : 0;
+      left    : 500px;
+      
+      
+}
+
+/*========== TOP-TABS ==========*/
+    
+#tabs-top{
+      position:fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color:mediumblue;
+      margin-top:95px;
+      
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top:10px;  
+      
+}
+
+/*========== MAIN-MENU ==========*/
+
+#main-menu{
+      margin-top: 129px;
+      background: url('images/block.jpg');
+}
+
+/*========== TABS-BOTTOM ==========*/
+
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color:mediumblue;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 50%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 10px;
+}
+
+/*========== MAIN ==========*/
+
+#main{
+    margin-top: 119px; 
+    background: url('images/W%20br.jpg');
+    width:100%;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*========== INFO BOX ==========*/
+
+a.info-box{
+      text-decoration : none;
+      background      : rgba(255, 255, 255, .8);
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding:0;
+    margin-bottom: 0;
+    width:90%;
+    color:mediumblue;
+}
+
+.info-box p{
+    margin: 0;
+    padding:0;
+    width:90%;
+    color:black;
+}
+
+.info-box img.right{
+    float:right;
+    margin-top:25px;
+    height: 40px;
+}
+
+/*========== INFO BOX FULL ==========*/
+
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+
+
+#info-box-full img{
+      width : 100%;
+}
+
+
+
+#info-box-full h3{
+      text-align : center;
+}  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
